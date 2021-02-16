@@ -1,0 +1,10 @@
+ul > ul{
+	list-style-type: circle; /*disc, square*/
+	list-style-position: inside; /*tabula la lista*/
+
+}
+ol{
+	list-style-type: decimal-leading-zero; /*empieza de 0*/
+	/*:upper-latin = mayusculas; 
+	:lower-latin;= minusculas*/
+}

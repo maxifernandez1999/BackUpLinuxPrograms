@@ -1,0 +1,10 @@
+div{ /*existen cajas en linea y en bloque(una al lado de otro)*/
+	background: #ff8000; /*color de fondo*/
+	width: 500px; /*ancho*/
+	height: 200px; /*alto*/
+	margin: 30px 50px; /*margenes externos*/
+	padding: 30px; /*margenes internos*/
+	border:30px solid#000; /*dotted = linea punteada*/ /*bordes de las cajas*/
+	display: inline-block; /*no puede se inline porque los elementos en linea no 
+	tienen width ni height, entonce se le agrega block*/
+}

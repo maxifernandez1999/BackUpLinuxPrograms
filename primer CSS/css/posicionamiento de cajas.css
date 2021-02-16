@@ -1,0 +1,43 @@
+div{
+	background:#12A4C8;
+	width: 50px;
+	font-size: 30px;
+	float: left; /*sirve para posicionar todos los div uno al lado del otro*/
+
+	/*<img>
+		float:left; sirve para texto al rededor de una imagen
+	</>*/ 
+	/*.clear
+		clear:both; sirve par romper la estructra del float*/
+}
+.cajas{ /*viene de la clase del html*/
+	position: relative; /*posicion que deja un espacio en blanco donde estaba antes la caja*/
+	top:200px; /*arriba*/
+	bottom:;/*abajo*/
+	right:;/*derecha*/
+	left:200px;/*izquierda*/
+}
+
+
+
+.caja{
+	position:absolute; /*las demas cajas se desplazar al lugar en blanco*/
+	top:200px; 
+	bottom:;
+	right:;
+	left:200px;
+}
+.cajapadre{
+	position: relative; /*se puede poner una caja hijo absoluta dentro de una caja padre relativa*/
+	background: black;
+	width: 500px;
+	height: 500px;
+}
+/*.caja{
+	position:fixed; cuando hago scroll no se mueve de lugar
+	top:200px; 
+	bottom:;
+	right:;
+	left:200px;*/
+
+	/*position:static = vuelve todo al punto de partida*/

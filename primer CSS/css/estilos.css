@@ -1,0 +1,53 @@
+h1{
+	font-size: 20px;
+	font-family: Arial; /*tipo de letra*/
+	font-weight: bold; /*bold es negrita*/
+	text-align: center; /*lefy y right*/
+	line-height:20px; /*espacio entre lineas*/
+	text-decoration: line-through; /*none para quitar el subrayado*/
+	/*overline para subrayado arriba del texto y underline subrayar
+	line-through para tachar*/
+	text-transform: uppercase; /*uppercase todas mayusculos
+	lowercase todas minusculos
+	capitalize primera letra de cada palabra en mayuscula*/
+	letter-spacing: 20px; /*espaciado entre letras*/
+	word-spacing: 20px; /*espaciado entre palabras*/
+	text-shadow: 5px 5px 5px #000;
+}
+
+h2, h3 ,h4{ /*selector de etiquetas*/
+	color:rgb(146,38,15); /*color de la fuente . RGB decimal . si se le agrega Rgba tambien se le agrega trasparecia de 0 a 1* /
+}
+h1{
+	font-size: 40px; /*tamaño de la fuente*/
+}
+a{
+	color:#176A13; /*color de la fuente valor hexadecimal*/
+}
+p a{ /*elementos a dentro de p*/
+	font-size: 30px; 
+}
+
+p .green{ /*elementos class ="green" dentro de p*/
+	color:10%, 20%, 30%; /*color con porcentajes*/
+}
+a [href="http://www.google.com/"]{ /*elementos href dentro de a*/
+	color:rgba(197,51,190,0.5); /*se le agrega transparecia*/
+	font-size: 40px;
+}
+
+body{
+	font-size: 16px; /*unidades relativas px
+	unidades absolutas = cm ejemplo*/
+}
+div{
+	font-size: 20px; 
+}
+div p{
+	font-size: 1em; /*em es igual a los px del elemento padre = div . y si es 1 rem al elemento body*/
+}
+div{
+	background: black; /*color del fondo*/
+	color: #fff;
+	width: 50% /*tamaño del color del recuadro*/
+}

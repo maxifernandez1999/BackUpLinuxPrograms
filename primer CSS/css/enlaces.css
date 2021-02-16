@@ -1,0 +1,53 @@
+a{
+	font-size: 30px;
+	text-decoration:none; /*subrayados*/
+	margin: 30px 20px;
+}
+a:link {	/*cambia los link no visitados*/
+	color: red;
+}
+a:hover { /*cuando pasas el cursor por arriba*/
+	text-decoration:underline;
+}
+a:active {
+	background: orange; /*lo que pasa cuando hacemos click en el link*/
+}
+a:visited {
+	/*como lucen los links visitados*/
+}
+/*font-size: tamanio de la fuente
+font-size: 16px 16em 16% relativas
+16em 1em equivale a lo de la clase contenedora
+1rem la clase contenedora mas grande*/
+
+/*a{
+	display: inline-block;
+	background: 
+	color
+	padding:
+	margin
+	box-shadow:;
+}
+a.hover{
+	box-shadow: none;
+}
+a.active
+{
+	box-shadow: 5px;
+}
+COMO HACER BOTONES DE ENLACES*/
+img{
+	width: 300px;
+	height: auto;
+	margin: auto; /*sirve para centrar un contenedor (tiene que tener display block)*/
+	display: block; /*las imagenes por defecto estan en linea y las tenemos que pasar a bloque*/
+	border-radius: 50%; /*hacer las imagenes redondas*/
+	box-shadow: 5px 5px 0px #000; /*sombras*/
+	padding: 10px; /*bordes*/
+	border:1px solid #000; /*bordes*/
+}
+div{
+	background: #ccc;
+	width: 800px;
+	
+}

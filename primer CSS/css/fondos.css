@@ -1,0 +1,7 @@
+body{
+	background: url(../imagenes/imagen.jpg);
+	background-repeat: no-repeat; /*repeat-x se repite en horizontal*/
+	background-attachment:fixed; /*scroll se mueve la imagen con el contenido*/
+	background-position: 500px 200px; /*position = center 0 *lo deja en el centro del documento*/
+	/*tambien se le puede hacer  aun div*/
+}
